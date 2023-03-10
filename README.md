@@ -2,8 +2,8 @@
 
 Function: Convert any youtube video into any file format in the command line.
 
-Use: run "python ytdl.py -i "<youtube video url>" -o "<output file name with file extenstion>"
+Use: run "python ytdl.py"
+input URL in the first input box and the output file name (with desired extension) in the second input box
 
-Example: python ytdl.py -i "https://www.youtube.com/watch?v=_JZqoGz0b6o" -o "song.wav"
-Saves the url as "song.wav" in the directory the project is stored in
+File is stored in the same directory as where the program is stored
 
