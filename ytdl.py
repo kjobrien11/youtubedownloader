@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 i = "temporaryname123.webm"
 
-ydl_opts = {'outtmpl': 'temporaryname123.webm'}
+ydl_opts = {'outtmpl': i}
 with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     ydl.download([args.i])
 
